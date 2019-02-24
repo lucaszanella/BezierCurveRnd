@@ -1,0 +1,13 @@
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/CMakeFiles/rebuild_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/CMakeFiles/edit_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/modules/react-native-bezier-curve/desktop/CMakeFiles/rebuild_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/modules/react-native-bezier-curve/desktop/CMakeFiles/edit_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/CMakeFiles/rebuild_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/CMakeFiles/edit_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/CMakeFiles/copy-qmldir.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/CMakeFiles/react-native.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/CMakeFiles/react-native_autogen.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/CMakeFiles/rebuild_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/CMakeFiles/edit_cache.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/CMakeFiles/BezierCurveRnd.dir
+/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/CMakeFiles/BezierCurveRnd_autogen.dir
