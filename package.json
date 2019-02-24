@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "status-im/react-native-desktop"
+    "react-native": "status-im/react-native-desktop#c122a2fa13bbd0039f06d0703d33e34084d96d66"
   },
   "devDependencies": {
     "babel-jest": "24.1.0",
