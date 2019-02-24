@@ -5829,7 +5829,7 @@ react-is@^16.6.3, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
   integrity sha512-Y4rC1ZJmsxxkkPuMLwvKvlL1Zfpbcu+Bf4ZigkHup3v9EfdYhAlWAaVyA19olXq2o2mGn0w+dFKvk3pVVlYcIA==
 
-react-native@status-im/react-native-desktop:
+react-native@status-im/react-native-desktop#c122a2fa13bbd0039f06d0703d33e34084d96d66:
   version "0.57.8"
   resolved "https://codeload.github.com/status-im/react-native-desktop/tar.gz/c122a2fa13bbd0039f06d0703d33e34084d96d66"
   dependencies:
