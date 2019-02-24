@@ -22,9 +22,7 @@ public:
     virtual QString moduleName() override;
 
 protected:
-    QQuickItem* createView(const QVariantMap& properties) override;
-
-
+    virtual QQuickItem* createView(const QVariantMap& properties) override;
 
 private:
     QScopedPointer<BezierCurveManagerPrivate> d_ptr;
