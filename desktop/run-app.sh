@@ -52,14 +52,14 @@ fi
 # For net case, try and run executor; it is probably OK if this fails - it's
 # just running elsewhere
 if [[ "$executor" == "ReactNetExecutor" ]]; then
-  (node /Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/ubuntu-server.js 2>&1 > /dev/null) &
+  (node /home/lz/BezierCurveRnd/desktop/bin/ubuntu-server.js 2>&1 > /dev/null) &
 fi
 
 if [[ $on_device == 1 ]]; then
   app_path="/home/phablet/BezierCurveRnd"
 
 # Push binaries
-  adb push /Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/BezierCurveRnd "$app_path/BezierCurveRnd"
+  adb push /home/lz/BezierCurveRnd/desktop/bin/BezierCurveRnd "$app_path/BezierCurveRnd"
   [ -d "$plugins_path" ] && adb push "$plugins_path" "$app_path/plugins/"
   [ -d "$asset_path" ] && adb push "$asset_path" "$app_path/share/"
 #  adb reverse --no-rebind tcp:8081 tcp:808
@@ -68,6 +68,6 @@ if [[ $on_device == 1 ]]; then
   adb shell "cd $app_path && REACT_SERVER_HOST=$react_host ./BezierCurveRnd --host $react_host $args -- --desktop_file_hint=/usr/share/applications/webbrowser-app.desktop"
 else
 # Run app locally
-  /Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/BezierCurveRnd $args
+  /home/lz/BezierCurveRnd/desktop/bin/BezierCurveRnd $args
 fi
 

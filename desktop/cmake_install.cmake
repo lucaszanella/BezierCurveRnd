@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop
+# Install script for directory: /home/lz/BezierCurveRnd/desktop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -34,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/modules/react-native-bezier-curve/desktop/cmake_install.cmake")
-  include("/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/lib/cmake_install.cmake")
-  include("/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/bin/cmake_install.cmake")
+  include("/home/lz/BezierCurveRnd/desktop/modules/react-native-bezier-curve/desktop/cmake_install.cmake")
+  include("/home/lz/BezierCurveRnd/desktop/lib/cmake_install.cmake")
+  include("/home/lz/BezierCurveRnd/desktop/bin/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/vkjr/work/projects/ReactNative/BezierCurveRnd/desktop/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lz/BezierCurveRnd/desktop/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
